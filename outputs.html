@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>using ".innerHTML"</h1>
+    <h2 id="demo1"></h2>
+
+    <h1>using "document.write()"</h1>
+        <p>never use doc.write after doc has finished loading.
+        it wii over write whole doc </p>
+    <button type="button" onclick="window.print()">print this page</button>
+    
+    <script>
+        document.getElementById('demo1').innerHTML='hello swastik'
+        document.write(5 + 6)
+        windows.alert(5+6)
+        console.log(3)
+
+    </script>
+    
+</body>
+</html>
